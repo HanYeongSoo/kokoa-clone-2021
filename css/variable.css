@@ -1,3 +1,4 @@
 :root {
-  --yellow: #fae100;
+  --yellow: #fae100; /* 여기는 메인페이지에서 로그인 같은거 할 때 밑에 보이게 하는 노랑색*/
+  --horizontal-space: 25px; /* 여기는 status-bar 밑에 header들이 동일한 padding을 가지고 있어서 만든 변수*/
 }
