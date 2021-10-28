@@ -25,70 +25,67 @@
     </div>
 
     <header class="screen-header">
-      <span class="screen-header__title">Chats</span>
+      <span class="screen-header__title">Find</span>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
         <span
           ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
         ></span>
+        <span class="cog-dot"></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="screenshots/한영수 (1) - 복사본.jpg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__text__title">YeongSoo</h4>
-            <h6 class="user-component__text__subtitle">
-              Please check My Kakao Account Info
-            </h6>
-          </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">19:05</span>
-          <div class="badge">3</div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span class="icon-row__text">Add by Contacts</span>
         </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="screenshots/한영수 (1) - 복사본.jpg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__text__title">YeongSoo</h4>
-            <h6 class="user-component__text__subtitle">
-              Please check My Kakao Account Info
-            </h6>
-          </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">19:05</span>
-          <div class="badge">3</div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
         </div>
       </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="screenshots/한영수 (1) - 복사본.jpg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__text__title">YeongSoo</h4>
-            <h6 class="user-component__text__subtitle">
-              Please check My Kakao Account Info
-            </h6>
-          </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">19:05</span>
-          <div class="badge">3</div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#AESPA</h5>
+            <h4 class="open-post__hashtag">#aespa#karina#friends</h4>
+            <div class="open-post__members">
+              <img src="screenshots/karina.jfif" />
+              🐱
+              <span class="open-post__members-count"> 802 members</span>
+              <div class="divider">
+                <span class="open-post__members-status">Active</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="screenshots/fbd06489-dc1e-4e83-8d15-455ac83fba5b.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
