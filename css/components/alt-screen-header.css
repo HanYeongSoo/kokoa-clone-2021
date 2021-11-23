@@ -1,13 +1,15 @@
 .alt-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: var(--horizontal-space);
-  margin: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alt-header__column {
+  width: 33%;
 }
 
 .alt-header__title {
-  margin: auto;
   font-size: 28px;
   font-weight: 600;
 }
@@ -15,9 +17,17 @@
 .alt-header__column:first-child {
   margin-right: auto;
 }
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
-.alt-header__column a {
-  color: black;
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
 }
