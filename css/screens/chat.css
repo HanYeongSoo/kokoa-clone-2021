@@ -95,8 +95,11 @@
   align-items: center;
   box-sizing: border-box;
 }
+.reply i {
+  opacity: 0.5;
+}
 .reply input {
-  height: 25px;
+  padding: 10px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
@@ -112,13 +115,13 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 0;
-  top: 5px;
+  right: -19px;
+  top: 3px;
 }
 
 .reply__column:last-child > i {
-  right: 40px;
-  top: 7px;
+  right: 25px;
+  top: 10px;
 }
 .reply__column button {
   background-color: var(--yellow);
@@ -126,4 +129,9 @@
   border-radius: 50%;
   width: 30px;
   height: 30px;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
